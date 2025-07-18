@@ -55,6 +55,8 @@ if 0 <= users_choice < 3:
     print(game_images[users_choice])
 else:
     print('''You typed an invalid choice.
+          
+        You
 
         ██╗      ██████╗  ██████╗ ███████╗███████╗
         ██║     ██╔═══██╗██╔═══██╗██╔════╝██╔════╝
