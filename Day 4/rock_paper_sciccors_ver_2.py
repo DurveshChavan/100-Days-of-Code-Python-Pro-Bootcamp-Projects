@@ -34,7 +34,7 @@ scissors = '''
 game_images = [rock, paper, scissors]
 
 # generate random choice for computer
-computer_choice = random.randint(1, 3)
+computer_choice = random.randint(0, 2)
 
 # Greetings and prompt for input
 print('''
@@ -48,7 +48,6 @@ users_choice = int(input("What do you choose?\n    1 for Rock.\n    2 for Paper.
 
 # logical Corrections
 users_choice -= 1
-computer_choice -= 1
 
 #  Create image for users choice
 if 0 <= users_choice < 3:
@@ -68,7 +67,7 @@ else:
     exit(1)
 
 # Create image for computers choice
-print(f"Computer chose: {computer_choice+1}\n{game_images[computer_choice]}")
+print(f"Computer chose: {computer_choice}\n{game_images[computer_choice]}")
 
 # Game Logic
 if users_choice == computer_choice:
