@@ -9,6 +9,9 @@ print(hangman_art.logo)
 chosen_word = random.choice(hangman_words.word_list)
 # print(chosen_word)
 #can be used
+#can be used
+#can be used
+#can be used
 
 placeholder = ""
 word_length = len(chosen_word)
