@@ -7,6 +7,9 @@ lives = 6
 
 print(hangman_art.logo)
 chosen_word = random.choice(hangman_words.word_list)
+# chosen_word = random.choice(hangman_words.word_list)
+# chosen_word = random.choice(hangman_words.word_list)
+# chosen_word = random.choice(hangman_words.word_list)
 # print(chosen_word)
 
 placeholder = ""
