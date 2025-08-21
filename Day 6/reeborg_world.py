@@ -1,5 +1,5 @@
 import random
-import math
+
 
 random_number1 = random.randint(0, 1)
 random_number2 = random.randint(0, 1)
